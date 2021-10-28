@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 70%;
+}
+.contenedor {
+  padding: auto;
+  max-width: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(236px, 1fr));
+  justify-content: center;
+  border: 10px solid white;
+  gap: 1px;
+}
+img {
+  border: 15px solid white;
+  width: 30vh;
+  height: 35vh;
+  border-radius: 50px;
+  display:block;
+}
+nav {
+  background-color: white;
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+  font-weight: bold;
+  padding: 10px;
+}
+.barra-busqueda {
+  height: 45px;
+  width: 90rem;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+.barra-busqueda input{
+  height: 40px;
+  width: 90rem;
+}
+.logito ion-icon {
+  width: 7vh;
+  color: red;
+}
+nav ion-icon {
+  display: flex;
+  width: 7vh;
+  color: grey;
+}
+nav a {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  padding: 10px;
+  border-radius: 80px;
+
+}
+.search {
+  background-color: rgba(250, 248, 248, 0.979);
+  border-radius: 25px;
+  box-shadow: 0;
+  text-align: left;
+  border-width: 0px;
+}
+@media only screen and (max-width: 768px) {
+[class*="grid-container"]{
+  width: 100%;
+}

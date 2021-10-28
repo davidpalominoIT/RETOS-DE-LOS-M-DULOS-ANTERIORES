@@ -1,0 +1,98 @@
+body {
+  background-image: url(https://pbs.twimg.com/media/EshBfYMVcAEopkJ.jpg);
+  background-size: auto;
+}
+.container1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 35%;
+  background-color: rgb(235, 235, 235);
+  border: solid 1px black;
+  padding: 5px;
+  border-radius: 15px;
+}
+.container1:hover {
+  background-color: gold;
+}
+
+.container1 svg {
+  color: green;
+  width: 100px !important;
+  height: 60px;
+}
+
+.container2 {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 30%;
+  background-color: skyblue;
+  border: solid 1px black;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.container2:hover {
+  background-color: #3682e7;
+}
+.form-label {
+  font-style: normal;
+  font-weight: bolder;
+  font-size: medium;
+  color: rgb(43, 43, 238);
+}
+.mb-3 {
+  display: inline-block;
+  width: 500px;
+  background-color: rgb(241, 163, 127);
+  border-radius: 15px;
+}
+.container3 {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 30%;
+  background-color: skyblue;
+  border: solid 1px black;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.container3:hover {
+  background-color: rgb(31, 218, 93);
+}
+.container4 {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 30%;
+  background-color: skyblue;
+  border: solid 1px black;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.container4:hover {
+  background-color: rgb(238, 150, 110);
+}
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  height: 78px;
+}
+
+.navbar svg {
+  color: red;
+}
